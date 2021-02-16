@@ -1,0 +1,101 @@
+<configs>
+<append xpath="/blocks">
+<block name="plantedRedHerb1">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="170,45,45"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Red_Herb1"/>
+	<property name="PlantGrowing.Next" value="plantedRedHerb2"/>
+	<property name="Group" value="Food/Cooking,Science"/>
+	<drop event="Destroy" name="plantedRedHerb1" count="1"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedRedHerb2">
+	<property name="Extends" value="plantedRedHerb1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="170,45,45"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Red_Herb2"/>
+	<property name="PlantGrowing.Next" value="plantedRedHerb3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedRedHerb1" count="1"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedRedHerb3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="170,45,45"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Red_Herb_Harvestable"/>
+	<drop event="Harvest" name="Red Herb" count="1" tag="wildCropsHarvest"/>
+	<property name="Group" value="Food/Cooking,Science"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedRedHerb3HarvestPlayer">
+	<property name="Extends" value="plantedRedHerb3Harvest"/>
+	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="170,45,45"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Red_Herb_Harvestable"/>
+	<property name="CreativeMode" value="Dev"/>
+	<drop event="Harvest" name="Red Herb" count="1" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="plantedRedHerb1"/>
+</block>
+
+<block name="plantedBlueHerb1">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="45,45,170"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Blue_Herb1"/>
+	<property name="PlantGrowing.Next" value="plantedBlueHerb2"/>
+	<property name="Group" value="Food/Cooking,Science"/>
+	<drop event="Destroy" name="plantedBlueHerb1" count="1"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedBlueHerb2">
+	<property name="Extends" value="plantedBlueHerb1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="45,45,170"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Blue_Herb2"/>
+	<property name="PlantGrowing.Next" value="plantedBlueHerb3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedBlueHerb1" count="1"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedBlueHerb3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="45,45,170"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Blue_Herb_Harvestable"/>
+	<drop event="Harvest" name="Blue Herb" count="1" tag="wildCropsHarvest"/>
+	<property name="Group" value="Food/Cooking,Science"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+<block name="plantedBlueHerb3HarvestPlayer">
+	<property name="Extends" value="plantedBlueHerb3Harvest"/>
+	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="CustomIconTint" value="45,45,170"/>
+	<property name="Model" value="#@modfolder:Resources/Red_Blue_Herbs.unity3d?Blue_Herb_Harvestable"/>
+	<property name="CreativeMode" value="Dev"/>
+	<drop event="Harvest" name="Blue Herb" count="1" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="plantedBlueHerb1"/>
+</block>
+	</append>
+</configs>
