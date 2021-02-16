@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BlueHerbs_RedHerbs>
+
+	<ModInfo>
+		<Name value="BlueHerbs_RedHerbs"/>
+		<Description value="This will add blue and red colored vanilla aloe plants to game."/>
+		<Author value="Chikorina"/>
+		<Version value="1.0"/>
+	</ModInfo>
+	
+</BlueHerbs_RedHerbs>
