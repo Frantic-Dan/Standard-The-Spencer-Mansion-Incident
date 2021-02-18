@@ -181,7 +181,7 @@ tbnsew:
 	<property class="RepairItems">
 		<property name="resourceClayLump" value="8"/>
 	</property>
-	<drop event="Harvest" name="resourceClayLump" count="8" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceClayLump" count="6" tag="oreWoodHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDirt" count="1" prob="0.25" stick_chance="1"/>
 	<drop event="Fall" name="resourceClayLump" count="12" prob="0.187" stick_chance="0"/>
@@ -199,7 +199,6 @@ tbnsew:
 	<property name="Material" value="MforestGround"/><property name="NoScrapping" value="true"/>
 	<property name="Shape" value="Terrain"/>
 	<property name="Mesh" value="terrain"/>
-	<property name="MaxDamage" value="200"/>
 	<property name="Texture" value="195,570,570,570,570,570"/>
 	<property name="LPHardnessScale" value="2"/>
 	<property name="Map.Color" value="35,80,45"/>
