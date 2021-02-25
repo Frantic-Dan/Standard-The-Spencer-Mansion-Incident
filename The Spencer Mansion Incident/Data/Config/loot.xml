@@ -2436,8 +2436,8 @@ The overall plan for loot distribution:
 <lootgroup name="electricalDevices">
 	<item name="resourceElectricParts" count="1,2" prob="1"/>
 	<item name="resourceElectricParts" count="1,2" prob="0.5"/>
-	<item name="smallEngine" prob="0.5"/>
-	<item name="carBattery" prob="0.35"/>
+	<item name="smallEngine" prob="0.35"/>
+	<item name="carBattery" prob="0.5"/>
 	<item name="pressureplate" count="1,3" prob="1.0"/>
 	<item name="ceilingLight01_player" count="1,3" prob="1.0"/>
 	<item name="electrictimerrelay" count="1" prob="1.0"/>
@@ -2972,8 +2972,8 @@ The overall plan for loot distribution:
 	<!-- <item name="vehicleMinibikeChassis"/>
 	<item name="vehicleMinibikeHandlebars"/> -->
 	<item name="vehicleWheels" prob="0.7"/>
-	<item name="smallEngine" prob="1.2"/>
-	<item name="carBattery"/>
+	<item name="smallEngine"/>
+	<item name="carBattery" prob="1.2"/>
 </lootgroup>
 
 <lootgroup name="motorcycleParts">
@@ -2981,7 +2981,7 @@ The overall plan for loot distribution:
 	<item name="vehicleMotorcycleHandlebars"/> -->
 	<item name="vehicleWheels" prob="0.7"/>
 	<item name="smallEngine"/>
-	<item name="carBattery"/>
+	<item name="carBattery" prob="1.2"/>
 </lootgroup>
 
 <lootgroup name="4x4Parts">
