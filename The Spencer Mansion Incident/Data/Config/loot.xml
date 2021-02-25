@@ -4209,7 +4209,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="GraceLoot" count="all">
 	<item group="BossLoot"/>
-	<item name="ladderWood"/>
+	<item name="ladderWood" prob="12"/>
 </lootgroup>
 
 <!-- EntityLootContainerBoss, rare random drop off bosses -->
@@ -4539,7 +4539,7 @@ treasureTemplate
 	<item name="resourceScrapPolymers" count="2,4" prob="0.4"/>
 	<!-- <item name="resourceLockPick" count="1,2" prob="0.2"/>
 	<item group="groupToolsT1Wrench"/> -->
-	<item group="groupToolsT1ClawHammer"/>
+	<item group="groupToolsT1ClawHammer" prob="1.5"/>
 	<item name="resourceRepairKit" count="1"/>
 	<item name="resourceForgedIron" count="1,2" prob="0.4"/>
 	<item name="resourceForgedSteel" count="1,2" prob="0.2"/>
@@ -4558,7 +4558,7 @@ treasureTemplate
 	<item name="resourceScrapPolymers" count="2,4" prob="0.4"/>
 	<!-- <item name="resourceLockPick" count="1,2" prob="0.2"/>
 	<item group="groupToolsT1Wrench"/> -->
-	<item group="groupToolsT1ClawHammer"/>
+	<item group="groupToolsT1ClawHammer" prob="1.5"/>
 	<item name="resourceRepairKit" count="1"/>
 	<item name="resourceForgedIron" count="1,2" prob="0.4"/>
 	<item name="resourceForgedSteel" count="1,2" prob="0.2"/>
