@@ -141,10 +141,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="80"/>
-	<ingredient name="resourceGunPowder" count="120"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="24"/>
+	<ingredient name="resourceGunPowder" count="36"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <recipe name="Dismantle 9mm Ammo x5" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
@@ -157,10 +157,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="ammoBundle9mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="160"/>
-	<ingredient name="resourceGunPowder" count="120"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle9mmBulletHP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="48"/>
+	<ingredient name="resourceGunPowder" count="36"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <recipe name="ammo9mmBulletAP" count="2" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -168,10 +168,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
-<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="80"/>
-	<ingredient name="resourceGunPowder" count="200"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="24"/>
+	<ingredient name="resourceGunPowder" count="60"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <recipe name="ammo44MagnumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
@@ -179,10 +179,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
-<recipe name="ammoBundle44MagnumBulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="160"/>
-	<ingredient name="resourceGunPowder" count="400"/>
-	<ingredient name="resourceBulletCasing" count="160"/>
+<recipe name="ammoBundle44MagnumBulletBall" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="48"/>
+	<ingredient name="resourceGunPowder" count="120"/>
+	<ingredient name="resourceBulletCasing" count="48"/>
 </recipe>
 
 <recipe name="Dismantle .44 Ammo x5" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
@@ -194,10 +194,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
-<recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="240"/>
-	<ingredient name="resourceGunPowder" count="400"/>
-	<ingredient name="resourceBulletCasing" count="160"/>
+<recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="72"/>
+	<ingredient name="resourceGunPowder" count="120"/>
+	<ingredient name="resourceBulletCasing" count="48"/>
 </recipe>
 
 <recipe name="ammo44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -205,10 +205,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="7"/>
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
-<recipe name="ammoBundle44MagnumBulletAP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="160"/>
-	<ingredient name="resourceGunPowder" count="560"/>
-	<ingredient name="resourceBulletCasing" count="160"/>
+<recipe name="ammoBundle44MagnumBulletAP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="48"/>
+	<ingredient name="resourceGunPowder" count="168"/>
+	<ingredient name="resourceBulletCasing" count="48"/>
 </recipe>
 
 <recipe name="ammo762mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
@@ -216,10 +216,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="3"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
-<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="80"/>
-	<ingredient name="resourceGunPowder" count="240"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="24"/>
+	<ingredient name="resourceGunPowder" count="72"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <recipe name="Dismantle 7.62 Ammo x5" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
@@ -231,10 +231,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="3"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
-<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="160"/>
-	<ingredient name="resourceGunPowder" count="240"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="48"/>
+	<ingredient name="resourceGunPowder" count="72"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <recipe name="ammo762mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -242,10 +242,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
-<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="80"/>
-	<ingredient name="resourceGunPowder" count="400"/>
-	<ingredient name="resourceBulletCasing" count="80"/>
+<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="24"/>
+	<ingredient name="resourceGunPowder" count="120"/>
+	<ingredient name="resourceBulletCasing" count="24"/>
 </recipe>
 
 <!-- <recipe name="ammoBlunderbuss" count="1">
@@ -269,10 +269,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourcePaper" count="2"/>
 </recipe>
-<recipe name="ammoBundleShotgunShell" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBuckshot" count="80"/>
-	<ingredient name="resourceGunPowder" count="400"/>
-	<ingredient name="resourcePaper" count="160"/>
+<recipe name="ammoBundleShotgunShell" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBuckshot" count="24"/>
+	<ingredient name="resourceGunPowder" count="120"/>
+	<ingredient name="resourcePaper" count="48"/>
 </recipe>
 
 <recipe name="Dismantle Shotgun Shells x5" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
@@ -281,13 +281,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="ammoShotgunSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="2"/>
-	<ingredient name="resourceGunPowder" count="5"/>
-	<ingredient name="resourceScrapPolymers" count="1"/>
+	<ingredient name="resourceGunPowder" count="6"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
 </recipe>
-<recipe name="ammoBundleShotgunSlug" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBulletTip" count="160"/>
-	<ingredient name="resourceGunPowder" count="400"/>
-	<ingredient name="resourceScrapPolymers" count="80"/>
+<recipe name="ammoBundleShotgunSlug" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="48"/>
+	<ingredient name="resourceGunPowder" count="144"/>
+	<ingredient name="resourceScrapPolymers" count="48"/>
 </recipe>
 
 <!-- <recipe name="ammoShotgunBreachingSlug" count="1" craft_time="9" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -984,15 +984,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe> -->
 
 <recipe name="cntGunSafe" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedSteel" count="40"/>
-	<ingredient name="resourceSpring" count="2"/>
-	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceForgedSteel" count="5"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
 </recipe>
 
 <recipe name="cntHardenedChestSecure" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedSteel" count="40"/>
-	<ingredient name="resourceSpring" count="2"/>
-	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceForgedSteel" count="7"/>
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
 </recipe>
 
 <recipe name="cntGreenDrawerSecure" count="1" craft_area="workbench" tags="workbenchCrafting">
@@ -1946,6 +1948,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="medicalBandage" count="2"/>
 </recipe>
 
+<recipe name="medicalFirstAidBandage" count="3" craft_time="10">
+	<ingredient name="medicalFirstAidKit" count="1"/>
+</recipe>
+
 <recipe name="Anti-vemon First Aid Bandage" count="1" craft_time="10" tags="learnable">
 	<ingredient name="Green+Red+Blue Cream" count="1"/>
 	<ingredient name="medicalBandage" count="2"/>
@@ -2028,7 +2034,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe> -->
 
-<recipe name="meleeToolRepairT1ClawHammer" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkMiner69r">
+<!-- <recipe name="meleeToolRepairT1ClawHammer" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkMiner69r">
 	<ingredient name="resourceForgedIron" count="15"/>
 	<ingredient name="resourceWood" count="6"/>
 	<ingredient name="resourceLeather" count="3"/>
@@ -2036,7 +2042,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
 	</effect_group>
-</recipe>
+</recipe> -->
 
 <recipe name="meleeToolAxeT1IronFireaxe" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkMiner69r">
 	<ingredient name="resourceForgedIron" count="24"/>
@@ -2561,12 +2567,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceSpring" count="1"/>
 </recipe>
 
-<recipe name="modGunShotgunTubeExtenderMagazine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+<!-- <recipe name="modGunShotgunTubeExtenderMagazine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceGlue" count="5"/>
 	<ingredient name="resourceMechanicalParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
-</recipe>
+</recipe> -->
 
 <recipe name="modGunMeleeRadRemover" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="5"/>
@@ -3414,19 +3420,19 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceSpring" count="4"/>
 </recipe>-->
 
-<!-- <recipe name="terrDestroyedStone" count="1" craft_time="2">
-	<ingredient name="resourceRockSmall" count="8"/>
+<recipe name="terrDestroyedStone" count="1" craft_time="2" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceRockSmall" count="5"/>
 </recipe>
 
-<recipe name="terrDirt" count="1" craft_time="2">
-	<ingredient name="resourceClayLump" count="8"/>
+<recipe name="terrDirt" count="1" craft_time="2" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceClayLump" count="6"/>
 </recipe>
 
-<recipe name="terrTopSoil" count="1" craft_time="2">
-	<ingredient name="resourceClayLump" count="8"/>
+<recipe name="terrTopSoil" count="1" craft_time="2" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceClayLump" count="7"/>
 </recipe>
 
-<recipe name="terrGravel" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+<!-- <recipe name="terrGravel" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
 	<ingredient name="resourceCrushedSand" count="5"/>
 	<ingredient name="resourceRockSmall" count="5"/>
 </recipe>
