@@ -614,7 +614,7 @@
 						<gameoption name="BlockDamagePlayer" title="goBlockDamagePlayer" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125" display_names="" value_localization_prefix="goBlockDamageValue" />
 						<gameoption name="BlockDamageAI" title="goBlockDamageAI" value_wrap="false" value_type="int" values="100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
 						<gameoption name="BlockDamageAIBM" title="goBlockDamageAIBM" value_wrap="false" value_type="int" values="100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
-						<gameoption name="LootAbundance" title="goLootAbundance" value_wrap="false" value_type="int" values="34, 67, 100, 134" display_names="" value_localization_prefix="goLootAbundanceValue" />
+						<gameoption name="LootAbundance" title="goLootAbundance" value_wrap="false" value_type="int" values="100, 134" display_names="" value_localization_prefix="goLootAbundanceValue" />
 						<gameoption name="LootRespawnDays" title="goLootRespawnDays" value_wrap="false" value_type="int" values="-1, 10, 15, 20" display_names="goDisabled" value_localization_prefix="goLootRespawnDaysValue" />
 						<gameoption name="DropOnDeath" title="goDropOnDeath" value_wrap="false" value_type="int" values="" display_names="goDeleteAll,goDeleteAll" value_localization_prefix="" />
 						<gameoption name="DropOnQuit" title="goDropOnQuit" value_wrap="false" value_type="int" values="" display_names="goNone,goAll,goToolbelt,goBackpack" value_localization_prefix="" />
@@ -812,7 +812,7 @@
 							<browsergameoptioncombined name="BlockDamagePlayer" title="goBlockDamagePlayer" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125" display_names="" value_localization_prefix="goBlockDamageValue" />
 							<browsergameoptioncombined name="BlockDamageAI" title="goBlockDamageAI" value_wrap="false" value_type="int" values="100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
 							<browsergameoptioncombined name="BlockDamageAIBM" title="goBlockDamageAIBM" value_wrap="false" value_type="int" values="100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
-							<browsergameoptioncombined name="LootAbundance" title="goLootAbundance" value_wrap="false" values="34, 67, 100, 134" display_names="" value_localization_prefix="goLootAbundanceValue" />
+							<browsergameoptioncombined name="LootAbundance" title="goLootAbundance" value_wrap="false" values="100, 134" display_names="" value_localization_prefix="goLootAbundanceValue" />
 							<browsergameoptioncombined name="LootRespawnDays" title="goLootRespawnDays" value_wrap="false" values="-1, 10, 15, 20" display_names="goDisabled" value_localization_prefix="goLootRespawnDaysValue" />
 							<browsergameoptioncombined name="DropOnDeath" title="goDropOnDeath" value_wrap="false" values="" display_names="goDeleteAll" value_localization_prefix="" allow_custom="false" />
 							<browsergameoptioncombined name="DropOnQuit" title="goDropOnQuit" value_wrap="false" values="" display_names="goNone,goAll,goToolbelt,goBackpack" value_localization_prefix="" allow_custom="false" />
