@@ -1645,7 +1645,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modArmorInsulatedLiner" installable_tags="armor" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+	<item_modifier name="modArmorInsulatedLiner" installable_tags="armor,clothing" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
 		<property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/>
 		<property name="DisplayType" value="modTempResist"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
@@ -1657,7 +1657,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorCoolingMesh" installable_tags="armor" modifier_tags="temperature" blocked_tags="noMods" type="attachment">
+	<item_modifier name="modArmorCoolingMesh" installable_tags="armor,clothing" modifier_tags="temperature" blocked_tags="noMods" type="attachment">
 		<property name="UnlockedBy" value="modArmorCoolingMeshSchematic"/>
 		<property name="DisplayType" value="modTempResist"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
@@ -1697,7 +1697,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorPlatingBasic" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+	<item_modifier name="modArmorPlatingBasic" installable_tags="armor,clothing" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
 		<property name="UnlockedBy" value="modArmorPlatingBasicSchematic"/>
 		<property name="DisplayType" value="modArmor"/>
 		<property name="Material" value="Mplastics"/>
@@ -1707,11 +1707,12 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="1" tags="heat,electrical"/>
 		</effect_group>
 	</item_modifier>
 
 	<!-- modArmorPlatingSteel -->
-	<item_modifier name="modArmorPlatingReinforced" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+	<item_modifier name="modArmorPlatingReinforced" installable_tags="armor,clothing" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
 		<property name="UnlockedBy" value="modArmorPlatingReinforcedSchematic"/>
 		<property name="DisplayType" value="modArmor"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
@@ -1719,6 +1720,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="2" tags="heat,electrical"/>
 		</effect_group>
 	</item_modifier>
 
