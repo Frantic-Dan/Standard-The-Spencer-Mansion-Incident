@@ -2121,7 +2121,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 		<damage_type value="bloodloss"/>
 		<damage_source value="Internal"/>
 		<stack_type value="ignore"/>
-		<duration value="36000"/>
+		<duration value="54000"/>
 		<!-- <display_value value=""/><display_value_format value="time"/> -->
 
 		<effect_group>
