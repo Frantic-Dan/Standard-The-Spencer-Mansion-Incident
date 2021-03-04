@@ -409,7 +409,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<triggered_effect trigger="onSelfSwimRun" action="LogMessage" message="== onSelfSwimRun"/>
 				<triggered_effect trigger="onSelfSwimIdle" action="LogMessage" message="== onSelfSwimIdle"/>
 				-->
-			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffJournalUnlocks"/>
+			<!-- <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffJournalUnlocks"/> -->
 
 			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$infectionMaxDuration" operation="set" value="25200"/> <!-- in seconds -->
 			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$dysenteryMaxDuration" operation="set" value="3600"/> <!-- in seconds -->
@@ -818,22 +818,22 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 		<effect_group> <!-- heavy armor, determine which % the armor perk restores -->
 			<requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="Equals" value="1"/>
 			<requirement name="CVarCompare" cvar=".ArmorHeavyWorn" operation="GT" value="0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".05"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".1"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="Equals" value="2"/>
 			<requirement name="CVarCompare" cvar=".ArmorHeavyWorn" operation="GT" value="0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".2"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="Equals" value="3"/>
 			<requirement name="CVarCompare" cvar=".ArmorHeavyWorn" operation="GT" value="0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".17"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".3"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="Equals" value="4"/>
 			<requirement name="CVarCompare" cvar=".ArmorHeavyWorn" operation="GT" value="0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".25"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="set" value=".4"/>
 		</effect_group>
 
 		<effect_group> <!-- heavy armor, add penalties back in -->
@@ -847,7 +847,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<!-- the full penalty that 1 piece of heavy armor adds -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaRun" operation="multiply" value="0.09"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="multiply" value="0.045"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyMobility" operation="multiply" value="0.06"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyMobility" operation="multiply" value="0.05"/>
 
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaRun" operation="multiply" value="@.ArmorHeavyWorn"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".ArmorHeavyStaminaWalk" operation="multiply" value="@.ArmorHeavyWorn"/>
@@ -862,7 +862,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 			<!-- set the speed at which crit buffs heal naturally -->
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$critHitNaturalHealingRate" operation="set" value="1">
 				<requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="LT" value="1"/></triggered_effect>
-			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$critHitNaturalHealingRate" operation="set" value="1.2">
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$critHitNaturalHealingRate" operation="set" value="2">
 				<requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="Equals" value="1"/></triggered_effect>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$critHitNaturalHealingRate" operation="set" value="1.4">
 				<requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="Equals" value="2"/></triggered_effect>
@@ -1236,17 +1236,17 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 
 		<effect_group name="perkT3">
 			<!-- counter goes up on attack, buff gets stacked up at the same time -->
-			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="3"/>
+			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="1"/>
 			<requirement name="CVarCompare" cvar=".PummelPeteCombo" operation="GTE" value="4"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".PummelPeteBonusReady" operation="set" value="1"/>
 		</effect_group>
 		<effect_group name="perkT4">
-			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="4"/>
+			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="2"/>
 			<requirement name="CVarCompare" cvar=".PummelPeteCombo" operation="Equals" value="3"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".PummelPeteBonusReady" operation="set" value="1"/>
 		</effect_group>
 		<effect_group name="perkT5">
-			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="5"/>
+			<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="3"/>
 			<requirement name="CVarCompare" cvar=".PummelPeteCombo" operation="Equals" value="2"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".PummelPeteBonusReady" operation="set" value="1"/>
 		</effect_group>
@@ -1288,17 +1288,17 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 
 		<effect_group name="perkT3">
 			<!-- counter goes up on attack, buff gets stacked up at the same time -->
-			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="3"/>
+			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="1"/>
 			<requirement name="CVarCompare" cvar=".GunslingerCombo" operation="GTE" value="4"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".GunslingerBonusReady" operation="set" value="1"/>
 		</effect_group>
 		<effect_group name="perkT4">
-			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="4"/>
+			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="2"/>
 			<requirement name="CVarCompare" cvar=".GunslingerCombo" operation="Equals" value="3"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".GunslingerBonusReady" operation="set" value="1"/>
 		</effect_group>
 		<effect_group name="perkT5">
-			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="5"/>
+			<requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="Equals" value="3"/>
 			<requirement name="CVarCompare" cvar=".GunslingerCombo" operation="Equals" value="2"/>
 				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".GunslingerBonusReady" operation="set" value="1"/>
 		</effect_group>
@@ -1357,11 +1357,11 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<requirement name="CVarCompare" cvar=".DeadEyeKillCounter" operation="LT" value=".3"/></triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DeadEyeEffectBase" operation="set" value="0">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="LTE" value="3"/></triggered_effect>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="LTE" value="1"/></triggered_effect>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DeadEyeEffectBase" operation="set" value=".1">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="4"/></triggered_effect>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="2"/></triggered_effect>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DeadEyeEffectBase" operation="set" value=".2">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="5"/></triggered_effect>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="3"/></triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DeadEyeEffectApply" operation="set" value="@.DeadEyeKillCounter"/>
 			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".DeadEyeEffectApply" operation="set" value="@.DeadEyeKillCounter"/>
@@ -5568,12 +5568,12 @@ The abrasion healing rate is fastest with a first aid kit, then a medicated band
 	<buff name="buffEncumberedInv" name_key="buffEncumberedInvName" description_key="buffEncumberedInvDesc" tooltip_key="buffEncumberedInvTooltip" icon="ui_game_symbol_pack_mule">
 		<stack_type value="ignore"/>
 		<damage_type value="stun"/>
-		<update_rate value="2.1"/>
+		<update_rate value="0.5"/>
 		<display_value value="_encumberedslots"/>
 		<display_value_key value="{0}"/>
 		<effect_group>
 			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffEncumberedInv"/>
-			<triggered_effect trigger="onSelfBuffStart" action="AddJournalEntry" journal="encumbranceTip"/>
+			<!-- <triggered_effect trigger="onSelfBuffStart" action="AddJournalEntry" journal="encumbranceTip"/> -->
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$encumbranceEffect" operation="set" value="@_encumberedslots"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$encumbranceEffect" operation="multiply" value="1"/> <!--0.026% X 27 = 0.70-->
@@ -6496,13 +6496,13 @@ The abrasion healing rate is fastest with a first aid kit, then a medicated band
 			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
 
 			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="3"/>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="1"/>
 			</passive_effect>
 			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".2">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="2"/>
 			</passive_effect>
 			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".3">
-				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="5"/>
+				<requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="3"/>
 			</passive_effect>
 			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".15">
 				<requirement name="ProgressionLevel" progression_name="perkSniperControlledBreathing" operation="Equals" value="1"/>
