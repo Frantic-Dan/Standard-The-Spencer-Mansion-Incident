@@ -277,10 +277,8 @@ New items:
 	</lootprobtemplate>
 
 	<lootprobtemplate name="ProbT1">
-		<loot level="0,14" prob="0"/>
-		<loot level="15,16" prob="0.05"/>
-		<loot level="17,19" prob="0.05"/>
-		<loot level="20,21" prob="0.06"/>
+		<loot level="0,19" prob="0"/>
+		<loot level="20,21" prob="0.09"/>
 		<loot level="22,24" prob="0.1"/>
 		<loot level="25,26" prob="0.11"/>
 		<loot level="27,28" prob="0.12"/>
@@ -1895,7 +1893,7 @@ The overall plan for loot distribution:
 	<item name="modGunScopeMedium"/>
 	<item name="modGunSoundSuppressorSilencer"/>
 	<item name="modGunTriggerGroupBurst3"/>
-	<item name="modGunShotgunTubeExtenderMagazine"/>
+	<!-- <item name="modGunShotgunTubeExtenderMagazine"/> -->
 </lootgroup>
 
 <lootgroup name="modGunT3">
@@ -2619,7 +2617,7 @@ The overall plan for loot distribution:
 	<!-- <item name="toolForgeCrucible" loot_prob_template="ProbT2"/> -->
 </lootgroup>
 
-<lootgroup name="forgeLoot" count="1,2">
+<lootgroup name="forgeLoot" count="1">
 	<item name="resourceScrapIron" count="10,30" prob="2"/>
 	<item name="resourceScrapBrass" count="13,37"/>
 	<item name="resourceScrapLead" count="10,30"/>
@@ -3584,10 +3582,11 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootgroup>
 
 <lootgroup name="groupBuriedLootStashTreasure" count="all">
-	<item name="casinoCoin" count="3000"/>
+	<item name="casinoCoin" count="2000"/>
 	<item name="ammo9mmBulletBall" count="30"/>
 	<item name="ammoShotgunShell" count="12"/>
 	<item name="ammo44MagnumBulletBall" count="12"/>
+	<item name="ammo762mmBulletBall" count="30"/>
 	<item name="ammoRocketFrag" count="2"/>
 	<item name="thrownGrenade" count="2"/>
 </lootgroup>
@@ -3686,7 +3685,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootcontainer>
 
 <!-- gun safe -->
-<lootcontainer id="7" count="3" size="6,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+<lootcontainer id="7" count="3" size="6,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
 	<item group="groupSafeLoot"/>
 </lootcontainer>
 
@@ -4325,9 +4324,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootcontainer>
 
 <!-- cntCollapsedForge -->
-<lootcontainer id="91" count="1" size="6,2" sound_open="forge_open" sound_close="forge_close" loot_quality_template="qualBaseTemplate">
-	<item group="forgeLoot"/>
-	<item name="forgeSchematic" prob=".20"/>
+<lootcontainer id="91" count="1" size="6,1" sound_open="forge_open" sound_close="forge_close" loot_quality_template="qualBaseTemplate">
+	<item name="resourceBulletTip" count="45"/>
 </lootcontainer>
 
 <!-- cntCollapsedWorkbench -->
