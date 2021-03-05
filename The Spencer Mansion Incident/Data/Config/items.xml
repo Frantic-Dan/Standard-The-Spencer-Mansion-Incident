@@ -5824,7 +5824,7 @@ needed?
 		<property name="Class" value="Melee"/>
 		<property name="Sphere" value=".4"/>
 		<property name="DamageEntity" value="16"/>
-		<property name="DamageBlock" value="350"/>
+		<property name="DamageBlock" value="100"/>
 		<!--
 		<property name="Buff" value="buffBurningZombie,buffInfectionCatch,buffInjuryStunned01"/>
 		-->
