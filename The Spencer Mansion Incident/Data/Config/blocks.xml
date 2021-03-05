@@ -20772,7 +20772,7 @@ NOT the TextureNumber.
 	<property name="Class" value="Door"/>
 	<property name="DisplayType" value="blockHardenedMulti"/>
 	<property name="Material" value="Mmetal_hard"/> <!-- 2500 -->
-	<property name="MaxDamage" value="1000"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="LightOpacity" value="1"/>
