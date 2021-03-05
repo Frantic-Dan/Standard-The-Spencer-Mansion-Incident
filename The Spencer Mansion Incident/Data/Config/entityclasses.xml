@@ -1994,7 +1994,7 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieBurning"/>
-	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrimson"/>
 
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -2022,7 +2022,7 @@
 	<property name="PainResistPerHit" value="1"/><!-- Feral -->
 
 	<!-- Gameplay -->
-	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="HandItem" value="meleeHandZombieBurningCrimson"/>
 
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
