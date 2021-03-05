@@ -19112,6 +19112,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="ResearcherWillTip"/>
 </item>
@@ -19127,6 +19128,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="TrevorDiaryTip"/>
 </item>
@@ -19142,6 +19144,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="BotanyBookTip"/>
 </item>
@@ -19157,6 +19160,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="KeeperDiaryTip"/>
 </item>
@@ -19172,6 +19176,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="MailToTheChiefOfSecurityTip"/>
 </item>
@@ -19187,6 +19192,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="ResearcherLetterTip"/>
 </item>
@@ -19202,6 +19208,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="FilesDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="PickupJournalEntry" value="ObservationNoteTip"/>
 </item>
